@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Icone_Cabecalho_Dashboard {
+    color: var(--bs-gray-600);
+
+}
+
+.Icon_Cabecalho_iFood {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.Icons_Cabecalho_iFood {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.Espacamento_Cabecalho_iFood {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+body {
+    background-color: var(--bs-gray-200);
+}
+
+.conteudo_pedidos {
+    margin: 4vw;
+}
+
+.card {
+    margin-top: 4vw;
+}
+
+.titulo_card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.impressao_pedido {
+    text-decoration: none;
+    color: black;
+}
+
+.agrupamento_observacoes_card_pedido {
+    margin-top: 2vw;
+    line-height: 1;
+}
+
+.agrupamento_pedidos_card_pedido {
+    line-height: 2;
+}
+
+.mensagens_pedidos {
+    background-color: white;
+    margin-top: 4vw;
+}
+
+
+@media (max-width : 900px) {
+    .Icons_Cabecalho_iFood {
+        flex-direction: row;
+        visibility: hidden;
+
+    }
+
+    .buscar_navbar {
+        visibility: hidden;
+    }
+}

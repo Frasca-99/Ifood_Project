@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Finance - iFood</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styleOF.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar">
+                <img src="../images/logo-ifood.png" alt="Logo_iFood" title="logo-ifood">
+
+                <a href="Dashboard.html">Dashboard</a>
+                <a href="Transação.html">Transações</a>
+                <a href="OpenFinance.html">Open Finance</a>
+                <a href="pedidos.html">Gestão de pedidos</a>
+                <a href="/index.html">Home</a>
+                <div class="text-center">
+                    <img src="../images/Hamburguer.jpg" class="rounded-circle" alt="Gerente">
+                    <p>Gerente</p>
+                </div>
+            </div>
+            <div class="col-md-10 content">
+                <div class="row mb-3">
+                    <div class="col-6 header-text">Open Finance</div>
+                    <div class="col-6 total-header">Total em outros bancos: R$ 999.999,99</div>
+                </div>
+
+                <input type="text" id="searchInput" class="form-control mb-3" placeholder="Buscar transações...">
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered" id="transactionTable">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Tipo</th>
+                                <th>Descrição</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>005</td>
+                                <td>Transf. <span class="red-dot"></span></td>
+                                <td>Next</td>
+                                <td>R$ 543,44</td>
+                            </tr>
+                            <tr>
+                                <td>005</td>
+                                <td>Crédito <span class="red-dot"></span></td>
+                                <td>Nubank</td>
+                                <td>R$ 1.234,33</td>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Transf. <span class="red-dot"></span></td>
+                                    <td>Next</td>
+                                    <td>R$ 543,44</td>
+                                </tr>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Crédito <span class="red-dot"></span></td>
+                                    <td>Nubank</td>
+                                    <td>R$ 1.234,33</td>
+                                </tr>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Pix recebido <span class="green-dot"></span></td>
+                                    <td>Santander</td>
+                                    <td>R$ 543,55</td>
+                                </tr>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Pix recebido <span class="green-dot"></span></td>
+                                    <td>Nubank</td>
+                                    <td>R$ 2.000,00</td>
+                                </tr>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Pagamento Funcionário - cozinha <span class="red-dot"></span></td>
+                                    <td>Next</td>
+                                    <td>R$ 1.430,00</td>
+                                </tr>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Pix enviado <span class="red-dot"></span></td>
+                                    <td>Next</td>
+                                    <td>R$ 367,00</td>
+                                </tr>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Pagamento Funcionário - Recepcionista <span class="red-dot"></span></td>
+                                    <td>Next</td>
+                                    <td>R$ 1.430,00</td>
+                                </tr>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Outros <span class="red-dot"></span></td>
+                                    <td>Next</td>
+                                    <td>R$ 152,00</td>
+                                </tr>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Pagamento Funcionário - Limpeza <span class="red-dot"></span></td>
+                                    <td>Next</td>
+                                    <td>R$ 1.430,00</td>
+                                </tr>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Internet <span class="red-dot"></span></td>
+                                    <td>Next</td>
+                                    <td>R$ 152,00</td>
+                                </tr>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Pagamento Funcionário - cozinha <span class="red-dot"></span></td>
+                                    <td>Next</td>
+                                    <td>R$ 1.734,00</td>
+                                </tr>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Transf Saldo c/ Sal Pcc - Empresa Parceira <span class="red-dot"></span></td>
+                                    <td>Next</td>
+                                    <td>R$ 152,00</td>
+                                </tr>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Pagamento Funcionário - cozinha <span class="red-dot"></span></td>
+                                    <td>Next</td>
+                                    <td>R$ 1.734,00</td>
+                                </tr>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Água <span class="red-dot"></span></td>
+                                    <td>Next</td>
+                                    <td>R$ 350,00</td>
+                                </tr>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Pagamento Funcionário - cozinha <span class="red-dot"></span></td>
+                                    <td>Next</td>
+                                    <td>R$ 1.430,00</td>
+                                </tr>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Outros <span class="red-dot"></span></td>
+                                    <td>Next</td>
+                                    <td>R$ 152,00</td>
+                                </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/OpenFinance.js"></script>
+
+</body>
+
+</html>

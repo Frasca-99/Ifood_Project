@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    overflow: hidden;
+    width: 100%;
+    margin: 10 10 10 10px;
+}
+
+.form-container {
+    padding: 40px;
+    width: 50%;
+    text-align: center;
+    
+    
+    
+}
+
+.form-control {
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.btn-primary {
+    background-color: #ff0000;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.btn-google {
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn-google img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.right-side {
+    background-image: url('../images/IfoodLogin.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+    }
+
+    .form-container,
+    .right-side {
+        width: 100%;
+    }
+}
